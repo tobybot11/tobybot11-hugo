@@ -1,0 +1,7 @@
+title = "tobybot11.io"
+languageCode = "en-us"
+baseurl = "http://tobybot11.github.io/blog"
+
+[Params]
+  Author = "Tobias Ford"
+  disqusShortname = "tobybot11"
