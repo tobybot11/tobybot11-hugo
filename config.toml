@@ -1,7 +1,54 @@
 title = "tobybot11.io"
 languageCode = "en-us"
 baseurl = "http://tobybot11.github.io/"
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 3
+disqusShortname = "tobybot11-io"
+googleAnalytics = ""
 
-[Params]
-  Author = "Tobias Ford"
+[params]
+  author = "Tobias Ford"
   disqusShortname = "tobybot11-io"
+  navbarTitle          = "tobybot11.io"
+  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  socialAppearAtTop = true
+  socialAppearAtBottom = true
+
+[params.intro]
+  header = "toby ford"
+  paragraph = "recent exploration"
+  about = "Juggler of many talents, master of none.."
+
+[params.intro.pic]
+  src = "/img/logo.jpg"
+  circle = false
+  imperfect = false
+  alt = "intro pic"
+
+[params.postAmmount]
+  sidebar = 2
+  
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  identifier = "fa fa-newspaper-o"
+  weight = 1
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories"
+  identifier = "fa fa-sitemap"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  identifier = "fa fa-user"
+  weight = 3
+
+[social]
+  github = "tobybot11"
+  twitter = "tobybot11"
+  facebook = "tobiasford"
+  

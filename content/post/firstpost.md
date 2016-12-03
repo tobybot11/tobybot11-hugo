@@ -1,8 +1,14 @@
 +++
-date = "2016-12-03T08:05:14-05:00"
+author = "Toby"
+date = "2016-12-02T20:05:14-05:00"
 title = "firstpost"
 draft = false
 image = "firstpost.png"
+description = "firstpost"
+featured = "firstpost.png"
+featuredpath = "/images"
+icon = "pacman"
+type = "post"
 +++
 
 Hey, let's get this blog **started**.
