@@ -1,10 +1,10 @@
 +++
 author = "Toby"
 date = "2016-12-02T20:05:14-05:00"
-title = "firstpost"
+title = "first post"
 draft = false
 image = "firstpost.png"
-description = "firstpost"
+description = "first post"
 featured = "firstpost.png"
 featuredpath = "/images"
 icon = "pacman"
