@@ -14,7 +14,7 @@ date = "2017-03-30T18:28:57-04:00"
 
 # I am Locutus of Borg
 
-I've been diving head first into the k8s ecosystem over the last month of March 2017.
+I've been diving head first into the k8s ecosystem over the last month (March 2017).
 This is the 2 or 3rd time "diving in" over the last 3 years and this time is the same as the last times.
 My experiences have been unpleasant .. here is a running list of the problems i've encountered.
 
@@ -28,11 +28,23 @@ My experiences have been unpleasant .. here is a running list of the problems i'
 * GCE gets more focus than native and other clouds.. i think this is unfortunate 
 * The "Documentation" is all over the map.. old / new .. documention is either nonexistant or very confusing given the frequency of change
 * PVC->PV doesn't seem to work with this "missing alpha thing" error
+
+> https://github.com/openshift/origin/issues/12676
+
+* Pods stuck in 'terminating' status like this
+
+> http://stackoverflow.com/questions/35453792/pods-stuck-at-terminated-status
+
 * Adding credetionals for quay.io to .docker/config.json in minikube
 * Helm tiller node fails in helm or is overwelmed .. what to do? i ended up getting rid of minikube entirely and starting over
 * Container image 'pull's get stuck and minikube needed to be restarted .. happend on quay/stackanetes/mariadb image
+
+> https://github.com/docker/docker/issues/22598
+
 * A helm install fails after helm delete.. needed a --purge.. not obvious 
 
-Granted, I'm a relative newbie .. that said, clearly there need some improvements.
+> https://github.com/kubernetes/helm/issues/1140
+
+Granted, I'm a relative newbie.  Thankfully there are plenty that have gone before me.. but clearly, there is work to do.
 
 
