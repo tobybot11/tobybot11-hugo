@@ -20,8 +20,9 @@ My experiences have been unpleasant .. here is a running list of the problems i'
 
 * Every time I want to view the dashboard I get "unauthorized" .. requires you run proxy in some cases
 
->  https://github.com/kubernetes/kubernetes/issues/31665
->  https://github.com/kubernetes/dashboard/issues/692#issuecomment-260547456
+> https://github.com/kubernetes/kubernetes/issues/31665
+> https://github.com/kubernetes/dashboard/issues/692#issuecomment-260547456
+> http://stackoverflow.com/questions/34306082/kubernetes-https-api-return-unauthorized
 
 * \<pending\> experience on spark - it always seems like external ip is sitting \<pending\> .. why is this
 * Are there any native load balancers or just GCE?
@@ -34,6 +35,10 @@ My experiences have been unpleasant .. here is a running list of the problems i'
 * Pods stuck in 'terminating' status like this
 
 > http://stackoverflow.com/questions/35453792/pods-stuck-at-terminated-status
+
+* Hitting CPU limits on the DNS container in k8s and getting a hundred containers built that need to be cleaned up
+
+> https://github.com/kubernetes/kubernetes/issues/33222
 
 * Adding credetionals for quay.io to .docker/config.json in minikube
 * Helm tiller node fails in helm or is overwelmed .. what to do? i ended up getting rid of minikube entirely and starting over
