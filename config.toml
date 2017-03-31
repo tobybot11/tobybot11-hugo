@@ -6,6 +6,7 @@ preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "tobybot11-io"
 googleAnalytics = ""
+enableEmoji = true
 
 [params]
   author = "Tobias Ford"
