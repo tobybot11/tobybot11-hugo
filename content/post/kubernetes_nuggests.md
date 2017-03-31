@@ -50,6 +50,8 @@ My experiences have been unpleasant .. here is a running list of the problems i'
 
 > https://github.com/kubernetes/helm/issues/1140
 
+* What's with randomly changing the order of output when you ask for multiple resources at once?
+
 Granted, I'm a relative newbie.  Thankfully there are plenty that have gone before me.. but clearly, there is work to do.
 
 
